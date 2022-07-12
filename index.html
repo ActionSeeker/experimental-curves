@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Plot</title>
+  <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'" />
+  <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'" />
+  <link rel="stylesheet" type="text/css" href="stylesheets/sanitize.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/dat-gui.css">
+</head>
+
+<body>
+
+  <canvas id="plot-area" height="100%" width="100%"></canvas>
+
+  <!-- You can also require other files to run in this process -->
+  <script src=" ./dist/bundle.js" defer></script>
+</body>
+
+</html>
